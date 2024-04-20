@@ -2,6 +2,7 @@ import argparse
 from CityMap import CityMap
 from AgentActions import AgentActions
 from bfs import breadthFirstSearch
+from ucs import uniformCostSearch
 
 
 def main():
@@ -13,19 +14,10 @@ def main():
     args = parser.parse_args()
 
     city_map = CityMap(args.mapFile)
-    # for city, city_obj in city_map.cities.items():
-    #     print(f"City: {city}")
-    #     print(f"Coordinates: {city_obj.coordinates}")
-    #     print("Connections:")
-    #     for connected_city, distance in city_obj.connections.items():
-    #         print(f"  {connected_city} {distance}")
-    #     print()
-
-    
     agent_actions = AgentActions(city_map)
     start_city = 'nice'
     goal_city = 'paris'
-    path, path_cost = breadthFirstSearch(agent_actions, start_city, goal_city)
+    path, path_cost = uniformCostSearch(agent_actions, start_city, goal_city)
     if path:
         print("Path found:", " -> ".join(path))
         print("Path Cost", path_cost)
