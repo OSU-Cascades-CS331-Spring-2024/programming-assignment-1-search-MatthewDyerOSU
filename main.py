@@ -3,6 +3,8 @@ from CityMap import CityMap
 from AgentActions import AgentActions
 from bfs import breadthFirstSearch
 from ucs import uniformCostSearch
+from dls import depthLimitedSearch
+from astar import aStarSearch
 
 
 def main():
@@ -17,12 +19,34 @@ def main():
     agent_actions = AgentActions(city_map)
     start_city = 'nice'
     goal_city = 'paris'
-    path, path_cost = uniformCostSearch(agent_actions, start_city, goal_city)
+
+    path, path_cost = breadthFirstSearch(agent_actions, start_city, goal_city)
     if path:
-        print("Path found:", " -> ".join(path))
-        print("Path Cost", path_cost)
+        print("BFS Path found:", " -> ".join(path))
+        print("BFS Path Cost", path_cost)
     else:
         print("No path found between", start_city, "and", goal_city)
+
+    path, path_cost = uniformCostSearch(agent_actions, start_city, goal_city)
+    if path:
+        print("UCS Path found:", " -> ".join(path))
+        print("UCS Path Cost", path_cost)
+    else:
+        print("No path found between", start_city, "and", goal_city)
+
+    path, cost = depthLimitedSearch(agent_actions, start_city, goal_city, 5)
+    if path:
+        print("DLS Path found:", " -> ".join(path))
+        print("DLS Path cost:", cost)
+    else:
+        print("No path found within depth limit from", start_city, "to", goal_city)
+
+    path, cost = aStarSearch(agent_actions, start_city, goal_city)
+    if path:
+        print("A* Path found:", " -> ".join(path))
+        print("A* Path cost:", cost)
+    else:
+        print("No path found from", start_city, "to", goal_city)
 
 if __name__ == "__main__":
     main()
