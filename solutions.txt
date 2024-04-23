@@ -1,0 +1,176 @@
+BFS Path found: brest -> rennes -> paris -> dijon -> lyon -> avignon -> marseille -> nice
+BFS Path Cost: 1633
+BFS Explored: 18
+BFS Expanded 55
+BFS Maintained: 18
+UCS Path found: brest -> rennes -> nantes -> bordeaux -> toulouse -> montpellier -> avignon -> marseille -> nice
+UCS Path Cost 1589
+UCS Explored: 29
+UCS Expanded 55
+UCS Maintained : 28
+No path found within depth limit from brest to nice
+A* Path found: brest -> rennes -> nantes -> bordeaux -> toulouse -> montpellier -> avignon -> marseille -> nice
+A* Path cost: 1589
+A* Explored: 29
+A* Expanded 55
+A* Maintained: 28
+BFS Path found: montpellier -> toulouse -> limoges -> paris -> calais
+BFS Path Cost: 1224
+BFS Explored: 16
+BFS Expanded 49
+BFS Maintained: 18
+UCS Path found: montpellier -> avignon -> lyon -> dijon -> paris -> calais
+UCS Path Cost 1131
+UCS Explored: 24
+UCS Expanded 52
+UCS Maintained : 28
+DLS Path found: montpellier -> avignon -> lyon -> limoges -> paris -> calais
+DLS Path cost: 1428
+DLS Explored: 28
+DLS Expanded 50
+DLS Maintained: 28
+A* Path found: montpellier -> avignon -> lyon -> dijon -> paris -> calais
+A* Path cost: 1131
+A* Explored: 24
+A* Expanded 52
+A* Maintained: 28
+BFS Path found: strasbourg -> dijon -> lyon -> limoges -> bordeaux
+BFS Path Cost: 1160
+BFS Explored: 15
+BFS Expanded 48
+BFS Maintained: 18
+UCS Path found: strasbourg -> nancy -> paris -> limoges -> bordeaux
+UCS Path Cost 1123
+UCS Explored: 25
+UCS Expanded 53
+UCS Maintained : 28
+DLS Path found: strasbourg -> dijon -> lyon -> limoges -> toulouse -> bordeaux
+DLS Path cost: 1474
+DLS Explored: 17
+DLS Expanded 34
+DLS Maintained: 17
+A* Path found: strasbourg -> nancy -> paris -> limoges -> bordeaux
+A* Path cost: 1123
+A* Explored: 25
+A* Expanded 53
+A* Maintained: 28
+BFS Path found: paris -> dijon -> lyon -> grenoble
+BFS Path Cost: 625
+BFS Explored: 14
+BFS Expanded 45
+BFS Maintained: 16
+UCS Path found: paris -> dijon -> lyon -> grenoble
+UCS Path Cost 625
+UCS Explored: 16
+UCS Expanded 42
+UCS Maintained : 23
+DLS Path found: paris -> calais -> nancy -> dijon -> lyon -> grenoble
+DLS Path cost: 1296
+DLS Explored: 10
+DLS Expanded 29
+DLS Maintained: 10
+A* Path found: paris -> dijon -> lyon -> grenoble
+A* Path cost: 625
+A* Explored: 16
+A* Expanded 42
+A* Maintained: 23
+BFS Path found: grenoble -> lyon -> limoges -> paris
+BFS Path Cost: 918
+BFS Explored: 12
+BFS Expanded 33
+BFS Maintained: 15
+UCS Path found: grenoble -> lyon -> dijon -> paris
+UCS Path Cost 621
+UCS Explored: 12
+UCS Expanded 31
+UCS Maintained : 20
+DLS Path found: grenoble -> avignon -> montpellier -> toulouse -> limoges -> paris
+DLS Path cost: 1245
+DLS Explored: 14
+DLS Expanded 22
+DLS Maintained: 14
+A* Path found: grenoble -> lyon -> dijon -> paris
+A* Path cost: 621
+A* Explored: 12
+A* Expanded 31
+A* Maintained: 20
+BFS Path found: brest -> rennes -> paris -> dijon -> lyon -> grenoble
+BFS Path Cost: 1214
+BFS Explored: 14
+BFS Expanded 45
+BFS Maintained: 16
+UCS Path found: brest -> rennes -> nantes -> limoges -> lyon -> grenoble
+UCS Path Cost 1197
+UCS Explored: 22
+UCS Expanded 47
+UCS Maintained : 25
+DLS Path found: brest -> rennes -> paris -> dijon -> lyon -> grenoble
+DLS Path cost: 1214
+DLS Explored: 47
+DLS Expanded 82
+DLS Maintained: 47
+A* Path found: brest -> rennes -> nantes -> limoges -> lyon -> grenoble
+A* Path cost: 1197
+A* Explored: 22
+A* Expanded 47
+A* Maintained: 25
+BFS Path found: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+BFS Path Cost: 1198
+BFS Explored: 18
+BFS Expanded 55
+BFS Maintained: 18
+UCS Path found: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+UCS Path Cost 1198
+UCS Explored: 28
+UCS Expanded 55
+UCS Maintained : 28
+DLS Path found: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+DLS Path cost: 1198
+DLS Explored: 70
+DLS Expanded 110
+DLS Maintained: 70
+A* Path found: grenoble -> lyon -> limoges -> nantes -> rennes -> brest
+A* Path cost: 1198
+A* Explored: 28
+A* Expanded 55
+A* Maintained: 28
+BFS Path found: nice -> marseille -> avignon -> lyon -> limoges -> nantes
+BFS Path Cost: 1262
+BFS Explored: 11
+BFS Expanded 30
+BFS Maintained: 14
+UCS Path found: nice -> marseille -> avignon -> montpellier -> toulouse -> bordeaux -> nantes
+UCS Path Cost 1232
+UCS Explored: 18
+UCS Expanded 42
+UCS Maintained : 24
+DLS Path found: nice -> marseille -> avignon -> lyon -> limoges -> nantes
+DLS Path cost: 1262
+DLS Explored: 17
+DLS Expanded 29
+DLS Maintained: 17
+A* Path found: nice -> marseille -> avignon -> montpellier -> toulouse -> bordeaux -> nantes
+A* Path cost: 1232
+A* Explored: 18
+A* Expanded 42
+A* Maintained: 24
+BFS Path found: caen -> calais -> nancy -> strasbourg
+BFS Path Cost: 989
+BFS Explored: 10
+BFS Expanded 33
+BFS Maintained: 13
+UCS Path found: caen -> paris -> nancy -> strasbourg
+UCS Path Cost 759
+UCS Explored: 14
+UCS Expanded 36
+UCS Maintained : 21
+DLS Path found: caen -> calais -> nancy -> strasbourg
+DLS Path cost: 989
+DLS Explored: 4
+DLS Expanded 10
+DLS Maintained: 4
+A* Path found: caen -> paris -> nancy -> strasbourg
+A* Path cost: 759
+A* Explored: 14
+A* Expanded 36
+A* Maintained: 21
